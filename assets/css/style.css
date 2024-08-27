@@ -1,0 +1,191 @@
+* {
+  font-family: "Nunito", system-ui;
+  scroll-behavior: smooth;
+}
+.full {
+  background-size: cover;
+  background-position: top;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  animation: fadeInUp 1s ease-out forwards;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.5
+  ); /* Overlay gelap untuk membuat teks lebih terlihat */
+  z-index: 1;
+}
+
+.content-container {
+  position: relative;
+  z-index: 2;
+  color: white;
+  text-align: center;
+  max-width: 600px;
+}
+
+.text-content h1,
+.text-content h2,
+.text-content h6 {
+  margin: 0.5rem 0;
+  opacity: 0;
+  transform: translateY(50px);
+  animation: fadeInUp 1.5s ease-out forwards;
+}
+
+.text-content h1 {
+  animation-delay: 0.5s;
+}
+
+.text-content h2 {
+  animation-delay: 1s;
+}
+
+.text-content h6 {
+  animation-delay: 1.5s;
+}
+
+.cta-button {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.75rem 1.5rem;
+  background-color: #ff9900; /* Warna tombol CTA */
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  opacity: 0;
+  transform: translateY(50px);
+  animation: fadeInUp 2s ease-out forwards;
+  animation-delay: 2s;
+}
+
+.location-info {
+  margin-top: 1rem;
+  font-size: 0.875rem;
+  opacity: 0;
+  transform: translateY(50px);
+  animation: fadeInUp 2.5s ease-out forwards;
+  animation-delay: 2.5s;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.navbar-brand,
+.nav-link {
+  color: white;
+}
+
+.coba {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.459);
+}
+
+.floating {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+}
+
+.fab-icon {
+  margin-top: 16px;
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Apply the fade-in effect */
+.fade-in {
+  animation: fadeIn 1s ease-out forwards;
+}
+
+/* Slide-up animation for the cards */
+@keyframes slideUp {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Apply the slide-up effect to all cards */
+.card {
+  opacity: 0;
+  animation: slideUp 1s ease-out forwards;
+  animation-delay: 0.3s;
+}
+
+.card:nth-child(2) {
+  animation-delay: 0.6s;
+}
+
+.card:nth-child(3) {
+  animation-delay: 0.9s;
+}
+
+/* Zoom-in effect on image hover */
+.card-img-top {
+  transition: transform 0.5s ease;
+}
+
+.card-img-top:hover {
+  transform: scale(1.1);
+}
+
+/* Animation for heading */
+h1,
+h3 {
+  opacity: 0;
+  animation: fadeIn 1s ease-out forwards;
+  animation-delay: 0.5s;
+}
+
+/* Animation for paragraphs */
+p {
+  opacity: 0;
+  animation: fadeIn 1s ease-out forwards;
+  animation-delay: 0.7s;
+}
