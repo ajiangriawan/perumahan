@@ -59,10 +59,10 @@ include 'header.php';
 
 <div class="container mt-5 border-bottom fade-in">
     <div class="row justify-content-center align-items-center g-2">
-        <div class="col">
+        <div class="col-sm-12 col-lg-6">
             <h1>Properti Populer</h1>
         </div>
-        <div class="col">
+        <div class="col-sm-12 col-lg-6">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ornare mi ac sapien vulputate iaculis.</p>
         </div>
     </div>
@@ -81,28 +81,133 @@ include 'header.php';
         <div class="row row-cols-1 row-cols-md-3 g-4">
             <div class="col">
                 <div class="card h-100">
-                    <img src="./assets/asset1.jpg" class="card-img-top" alt="...">
+                    <img src="./assets/perumrakyat.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">MODEL TERBAIK</h5>
-                        <p class="card-text">Terdapat banyak model yang terbaik sesuai keinginan anda.</p>
+                        <div>
+                            <h5 class="card-title">PERUMAHAN RAKYAT - Type 1</h5>
+                            <div
+                                class="row justify-content-center align-items-center g-2">
+                                <div class="col d-flex">
+                                    <span class="material-symbols-outlined">
+                                        location_on
+                                    </span> Kalidoni, Palembang
+                                </div>
+                            </div>
+                            <div
+                                class="row mt-2 justify-content-center align-items-center g-2">
+                                <div class="col-2 d-flex">
+                                    <span class="material-symbols-outlined">
+                                        bed
+                                    </span>
+                                    <h6>2</h6>
+                                </div>
+                                <div class="col-2 d-flex"><span class="material-symbols-outlined">
+                                        bathtub
+                                    </span>
+                                    <h6>1</h6>
+                                </div>
+                                <div class="col d-flex">
+                                    <h6>Rp. 150.000.000,-</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            class="row mt-2  align-items-center g-2">
+                            <div class="col d-flex justify-content-center" style="color: orange;">
+                                <a href="" style="color: orange; text-decoration:none">Lihat Detail</a>
+                                <span style="color: orange;" class="material-symbols-outlined">
+                                    arrow_forward
+                                </span>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="col">
                 <div class="card h-100">
-                    <img src="./assets/asset4.jpg" class="card-img-top" alt="...">
+                    <img src="./assets/perumrakyat1.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">LINGKUNGAN NYAMAN</h5>
-                        <p class="card-text">Dibangun dengan lingkungan yang nyaman untuk anda.</p>
+                        <div>
+                            <h5 class="card-title">PERUMAHAN RAKYAT - Type 2</h5>
+                            <div
+                                class="row justify-content-center align-items-center g-2">
+                                <div class="col d-flex">
+                                    <span class="material-symbols-outlined">
+                                        location_on
+                                    </span> Kalidoni, Palembang
+                                </div>
+                            </div>
+                            <div
+                                class="row mt-2 justify-content-center align-items-center g-2">
+                                <div class="col-2 d-flex">
+                                    <span class="material-symbols-outlined">
+                                        bed
+                                    </span>
+                                    <h6>2</h6>
+                                </div>
+                                <div class="col-2 d-flex"><span class="material-symbols-outlined">
+                                        bathtub
+                                    </span>
+                                    <h6>1</h6>
+                                </div>
+                                <div class="col d-flex">
+                                    <h6>Rp. 200.000.000,-</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            class="row mt-2  align-items-center g-2">
+                            <div class="col d-flex justify-content-center" style="color: orange;">
+                                <a href="" style="color: orange; text-decoration:none">Lihat Detail</a>
+                                <span style="color: orange;" class="material-symbols-outlined">
+                                    arrow_forward
+                                </span>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="col">
                 <div class="card h-100">
-                    <img src="./assets/asset1.jpg" class="card-img-top" alt="...">
+                    <img src="./assets/perumrakyat2.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">FASILITAS LENGKAP</h5>
-                        <p class="card-text">Disediakan juga fasilitas yang lengkap untuk anda.</p>
+                        <div>
+                            <h5 class="card-title">PERUMAHAN RAKYAT - Type 3</h5>
+                            <div
+                                class="row justify-content-center align-items-center g-2">
+                                <div class="col d-flex">
+                                    <span class="material-symbols-outlined">
+                                        location_on
+                                    </span> Kalidoni, Palembang
+                                </div>
+                            </div>
+                            <div
+                                class="row mt-2 justify-content-center align-items-center g-2">
+                                <div class="col-2 d-flex">
+                                    <span class="material-symbols-outlined">
+                                        bed
+                                    </span>
+                                    <h6>2</h6>
+                                </div>
+                                <div class="col-2 d-flex"><span class="material-symbols-outlined">
+                                        bathtub
+                                    </span>
+                                    <h6>1</h6>
+                                </div>
+                                <div class="col d-flex">
+                                    <h6>Rp. 230.000.000,-</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            class="row mt-2  align-items-center g-2">
+                            <div class="col d-flex justify-content-center" style="color: orange;">
+                                <a href="" style="color: orange; text-decoration:none">Lihat Detail</a>
+                                <span style="color: orange;" class="material-symbols-outlined">
+                                    arrow_forward
+                                </span>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -125,26 +230,131 @@ include 'header.php';
                 <div class="card h-100">
                     <img src="./assets/asset1.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">MODEL TERBAIK</h5>
-                        <p class="card-text">Terdapat banyak model yang terbaik sesuai keinginan anda.</p>
+                        <div>
+                            <h5 class="card-title">KOMERSIAL - Type 1</h5>
+                            <div
+                                class="row justify-content-center align-items-center g-2">
+                                <div class="col d-flex">
+                                    <span class="material-symbols-outlined">
+                                        location_on
+                                    </span> Kalidoni, Palembang
+                                </div>
+                            </div>
+                            <div
+                                class="row mt-2 justify-content-center align-items-center g-2">
+                                <div class="col-2 d-flex">
+                                    <span class="material-symbols-outlined">
+                                        bed
+                                    </span>
+                                    <h6>3</h6>
+                                </div>
+                                <div class="col-2 d-flex"><span class="material-symbols-outlined">
+                                        bathtub
+                                    </span>
+                                    <h6>2</h6>
+                                </div>
+                                <div class="col d-flex">
+                                    <h6>Rp. 320.000.000,-</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            class="row mt-2  align-items-center g-2">
+                            <div class="col d-flex justify-content-center" style="color: orange;">
+                                <a href="" style="color: orange; text-decoration:none">Lihat Detail</a>
+                                <span style="color: orange;" class="material-symbols-outlined">
+                                    arrow_forward
+                                </span>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="col">
                 <div class="card h-100">
-                    <img src="./assets/asset4.jpg" class="card-img-top" alt="...">
+                    <img src="./assets/asset2.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">LINGKUNGAN NYAMAN</h5>
-                        <p class="card-text">Dibangun dengan lingkungan yang nyaman untuk anda.</p>
+                        <div>
+                            <h5 class="card-title">KOMERSIAL - Type 2</h5>
+                            <div
+                                class="row justify-content-center align-items-center g-2">
+                                <div class="col d-flex">
+                                    <span class="material-symbols-outlined">
+                                        location_on
+                                    </span> Kalidoni, Palembang
+                                </div>
+                            </div>
+                            <div
+                                class="row mt-2 justify-content-center align-items-center g-2">
+                                <div class="col-2 d-flex">
+                                    <span class="material-symbols-outlined">
+                                        bed
+                                    </span>
+                                    <h6>3</h6>
+                                </div>
+                                <div class="col-2 d-flex"><span class="material-symbols-outlined">
+                                        bathtub
+                                    </span>
+                                    <h6>2</h6>
+                                </div>
+                                <div class="col d-flex">
+                                    <h6>Rp. 360.000.000,-</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            class="row mt-2  align-items-center g-2">
+                            <div class="col d-flex justify-content-center" style="color: orange;">
+                                <a href="" style="color: orange; text-decoration:none">Lihat Detail</a>
+                                <span style="color: orange;" class="material-symbols-outlined">
+                                    arrow_forward
+                                </span>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="col">
                 <div class="card h-100">
-                    <img src="./assets/asset1.jpg" class="card-img-top" alt="...">
+                    <img src="./assets/asset3.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">FASILITAS LENGKAP</h5>
-                        <p class="card-text">Disediakan juga fasilitas yang lengkap untuk anda.</p>
+                        <div>
+                            <h5 class="card-title">KOMERSIAL - Type 3</h5>
+                            <div
+                                class="row justify-content-center align-items-center g-2">
+                                <div class="col d-flex">
+                                    <span class="material-symbols-outlined">
+                                        location_on
+                                    </span> Kalidoni, Palembang
+                                </div>
+                            </div>
+                            <div
+                                class="row mt-2 justify-content-center align-items-center g-2">
+                                <div class="col-2 d-flex">
+                                    <span class="material-symbols-outlined">
+                                        bed
+                                    </span>
+                                    <h6>3</h6>
+                                </div>
+                                <div class="col-2 d-flex"><span class="material-symbols-outlined">
+                                        bathtub
+                                    </span>
+                                    <h6>2</h6>
+                                </div>
+                                <div class="col d-flex">
+                                    <h6>Rp. 390.000.000,-</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            class="row mt-2  align-items-center g-2">
+                            <div class="col d-flex justify-content-center" style="color: orange;">
+                                <a href="" style="color: orange; text-decoration:none">Lihat Detail</a>
+                                <span style="color: orange;" class="material-symbols-outlined">
+                                    arrow_forward
+                                </span>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -165,28 +375,133 @@ include 'header.php';
         <div class="row row-cols-1 row-cols-md-3 g-4">
             <div class="col">
                 <div class="card h-100">
-                    <img src="./assets/asset1.jpg" class="card-img-top" alt="...">
+                    <img src="./assets/apartment.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">MODEL TERBAIK</h5>
-                        <p class="card-text">Terdapat banyak model yang terbaik sesuai keinginan anda.</p>
+                        <div>
+                            <h5 class="card-title">APARTEMEN - Type 1</h5>
+                            <div
+                                class="row justify-content-center align-items-center g-2">
+                                <div class="col d-flex">
+                                    <span class="material-symbols-outlined">
+                                        location_on
+                                    </span> Kalidoni, Palembang
+                                </div>
+                            </div>
+                            <div
+                                class="row mt-2 justify-content-center align-items-center g-2">
+                                <div class="col-2 d-flex">
+                                    <span class="material-symbols-outlined">
+                                        bed
+                                    </span>
+                                    <h6>1</h6>
+                                </div>
+                                <div class="col-2 d-flex"><span class="material-symbols-outlined">
+                                        bathtub
+                                    </span>
+                                    <h6>1</h6>
+                                </div>
+                                <div class="col d-flex">
+                                    <h6>Rp. 100.000.000,-</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            class="row mt-2  align-items-center g-2">
+                            <div class="col d-flex justify-content-center" style="color: orange;">
+                                <a href="" style="color: orange; text-decoration:none">Lihat Detail</a>
+                                <span style="color: orange;" class="material-symbols-outlined">
+                                    arrow_forward
+                                </span>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="col">
                 <div class="card h-100">
-                    <img src="./assets/asset4.jpg" class="card-img-top" alt="...">
+                    <img src="./assets/apartment1.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">LINGKUNGAN NYAMAN</h5>
-                        <p class="card-text">Dibangun dengan lingkungan yang nyaman untuk anda.</p>
+                        <div>
+                            <h5 class="card-title">APARTEMEN - Type 2</h5>
+                            <div
+                                class="row justify-content-center align-items-center g-2">
+                                <div class="col d-flex">
+                                    <span class="material-symbols-outlined">
+                                        location_on
+                                    </span> Kalidoni, Palembang
+                                </div>
+                            </div>
+                            <div
+                                class="row mt-2 justify-content-center align-items-center g-2">
+                                <div class="col-2 d-flex">
+                                    <span class="material-symbols-outlined">
+                                        bed
+                                    </span>
+                                    <h6>2</h6>
+                                </div>
+                                <div class="col-2 d-flex"><span class="material-symbols-outlined">
+                                        bathtub
+                                    </span>
+                                    <h6>2</h6>
+                                </div>
+                                <div class="col d-flex">
+                                    <h6>Rp. 120.000.000,-</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            class="row mt-2  align-items-center g-2">
+                            <div class="col d-flex justify-content-center" style="color: orange;">
+                                <a href="" style="color: orange; text-decoration:none">Lihat Detail</a>
+                                <span style="color: orange;" class="material-symbols-outlined">
+                                    arrow_forward
+                                </span>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="col">
                 <div class="card h-100">
-                    <img src="./assets/asset1.jpg" class="card-img-top" alt="...">
+                    <img src="./assets/apartment2.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">FASILITAS LENGKAP</h5>
-                        <p class="card-text">Disediakan juga fasilitas yang lengkap untuk anda.</p>
+                        <div>
+                            <h5 class="card-title">APARTEMEN - Type 3</h5>
+                            <div
+                                class="row justify-content-center align-items-center g-2">
+                                <div class="col d-flex">
+                                    <span class="material-symbols-outlined">
+                                        location_on
+                                    </span> Kalidoni, Palembang
+                                </div>
+                            </div>
+                            <div
+                                class="row mt-2 justify-content-center align-items-center g-2">
+                                <div class="col-2 d-flex">
+                                    <span class="material-symbols-outlined">
+                                        bed
+                                    </span>
+                                    <h6>3</h6>
+                                </div>
+                                <div class="col-2 d-flex"><span class="material-symbols-outlined">
+                                        bathtub
+                                    </span>
+                                    <h6>2</h6>
+                                </div>
+                                <div class="col d-flex">
+                                    <h6>Rp. 150.000.000,-</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            class="row mt-2  align-items-center g-2">
+                            <div class="col d-flex justify-content-center" style="color: orange;">
+                                <a href="" style="color: orange; text-decoration:none">Lihat Detail</a>
+                                <span style="color: orange;" class="material-symbols-outlined">
+                                    arrow_forward
+                                </span>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -196,10 +511,10 @@ include 'header.php';
 
 <div class="container mt-5 border-bottom fade-in">
     <div class="row justify-content-center align-items-center g-2">
-        <div class="col">
+        <div class="col-sm-12 col-lg-6">
             <h1>Marketing Kami</h1>
         </div>
-        <div class="col">
+        <div class="colcol-sm-12 col-lg-6">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ornare mi ac sapien vulputate iaculis.</p>
         </div>
     </div>
@@ -208,14 +523,14 @@ include 'header.php';
 <div class="mt-3 bg-black" style="width: 100%;">
     <div class="container" style="color: white;">
         <div class="row justify-content-center align-items-center g-2">
-            <div class="col">
+            <div class="col-lg-4 col-sm-12  d-flex justify-content-end">
+                <img src="./assets/person.png" class="card-img-top" alt="..." style="max-width: 100%;">
+            </div>
+            <div class="col-lg-8 col-sm-12 ">
                 <h3>AJI ANGRI AWAN</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ornare mi ac sapien vulputate iaculis.</p>
                 <p>Hubungi di:</p>
                 <h4>WA/TELP : 0878-1323-3775</h4>
-            </div>
-            <div class="col d-flex justify-content-end">
-                <img src="./assets/person.png" class="card-img-top" alt="..." style="max-width: 300px;">
             </div>
         </div>
     </div>
@@ -224,14 +539,14 @@ include 'header.php';
 <div class="mt-3 bg-black" style="width: 100%;">
     <div class="container" style="color: white;">
         <div class="row justify-content-center align-items-center g-2">
-            <div class="col d-flex justify-content-start">
-                <img src="./assets/person1.png" class="card-img-top" alt="..." style="max-width: 300px;">
-            </div>
-            <div class="col">
+            <div class="col-sm-12 col-lg-8">
                 <h3>RACHEL</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ornare mi ac sapien vulputate iaculis.</p>
                 <p>Hubungi di:</p>
                 <h4>WA/TELP : 0878-1323-3775</h4>
+            </div>
+            <div class="col-lg-4 col-lg-4 d-flex justify-content-start">
+                <img src="./assets/person1.png" class="card-img-top" alt="..." style="max-width: 100%;">
             </div>
         </div>
     </div>

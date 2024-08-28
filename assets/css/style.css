@@ -189,3 +189,13 @@ p {
   animation: fadeIn 1s ease-out forwards;
   animation-delay: 0.7s;
 }
+
+.card-body {
+  display: flex;
+  flex: 1 1 auto;
+  padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
+  color: var(--bs-card-color);
+  flex-direction: column;
+  align-content: flex-start;
+  justify-content: space-between;
+}
